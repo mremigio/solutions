@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORA.UI.Security.NETStandard.PowerBI", "..\src\ORA.UI.Security.NETStandard.PowerBI.csproj", "{9C1A874B-709C-4429-A010-044F65006280}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ORA.UI.Security.UnitTests.NetCore.PowerBI", "..\tests\ORA.UI.Security.UnitTests.NetCore.PowerBI.csproj", "{821E8591-EBA9-489D-81AA-7A54CEF98DEF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C1A874B-709C-4429-A010-044F65006280} = {9C1A874B-709C-4429-A010-044F65006280}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C1A874B-709C-4429-A010-044F65006280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1A874B-709C-4429-A010-044F65006280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1A874B-709C-4429-A010-044F65006280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1A874B-709C-4429-A010-044F65006280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821E8591-EBA9-489D-81AA-7A54CEF98DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821E8591-EBA9-489D-81AA-7A54CEF98DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821E8591-EBA9-489D-81AA-7A54CEF98DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821E8591-EBA9-489D-81AA-7A54CEF98DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E2AE009-F283-42CA-98D7-DA674A8099DB}
+	EndGlobalSection
+EndGlobal
